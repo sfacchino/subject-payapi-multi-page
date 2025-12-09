@@ -1,0 +1,21 @@
+.all1 {
+    background-color: #1B262F;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.del {
+    display: none;
+}
+.primary {
+    display: none;
+}
+.bothtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

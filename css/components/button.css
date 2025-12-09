@@ -1,0 +1,34 @@
+.primary {
+	border: none;
+	background-color: #ba4270;
+    color: white;
+    border-radius: 24px;
+    padding: 10px 25px;
+}
+.primary:hover {
+    background-color: #DA6D97;
+}
+.primary:disabled {
+    background-color: #1B262F;
+}
+.secondary {
+background-color: #1B262F;
+border: 1px solid white;
+border-radius: 24px;
+color: white;
+padding: 10px 25px;
+}
+.secondary:hover {
+    color: black;
+    background-color: white;
+}
+.dark {
+    color: #36536B;
+    border: solid 1px #36536B;
+    background-color: white;
+    border-radius: 24px;
+}
+.dark:hover {
+    background-color: #36536B;
+    color: white;
+}
