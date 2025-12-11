@@ -4,6 +4,7 @@
     color: white;
     border-radius: 24px;
     padding: 10px 25px;
+    width: 90%;
 }
 .primary:hover {
     background-color: #DA6D97;

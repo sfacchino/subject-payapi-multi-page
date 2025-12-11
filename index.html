@@ -4,16 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="/css/normalize.css" />
 		<link rel="stylesheet" href="/css/reset.css" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/components/button.css" />
+		<link rel="stylesheet" href="/css/home.css" />
 	</head>
 	<body>
-		<main>
-			<header>
-				<nav>
+		<header>
+			<nav>
+				<div class="alltop">
 					<div class="bothtop">
 						<svg
 							width="135"
@@ -137,20 +137,32 @@
 							</g>
 						</svg>
 					</div>
-					<section class="del">
-						<a href="pricing.html">Pricing</a>
-						<a href="about.html">About</a>
-						<a href="contact.html">Contact</a>
-						<button class="primary">Schedule a Demo</button>
-					</section>
-				</nav>
-			</header>
+					<img class="teln1" src="/assets/tel.png" alt="tel1" />
+				</div>
+
+				<div class="del">
+					<ul>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+					<button class="primary">Schedule a Demo</button>
+				</div>
+			</nav>
+		</header>
+		<main>
 			<div class="rond"></div>
 			<div class="sTOs">
 				<h1>Start building with our APIs for absolutely free.</h1>
-				<input type="text" />
-				<button class="primary">Schedule a Demo</button>
-				<img src="/assets/tel.png" alt="tel1" />
+				<div class="mp">
+					<input
+						class="mailinput"
+						type="text"
+						placeholder="Enter email address"
+					/>
+					<button class="primary">Schedule a Demo</button>
+				</div>
+				<p>Have any questions? Contact Us</p>
 			</div>
 			<div class="all1">
 				<div class="wTOs">
@@ -371,7 +383,7 @@
 			<div class="bottom">
 				<p>Ready to start?</p>
 				<input type="text" />
-				<button>Schedule a Demo</button>
+				<button class="primaryw">Schedule a Demo</button>
 			</div>
 			<footer>
 				<div class="bfooter">
